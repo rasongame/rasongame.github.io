@@ -1,0 +1,30 @@
+body {
+  color: #7c7c7c;
+  margin-left: 2em;
+  background: #181818;
+}
+
+body a:-webkit-any-link {
+  color: #ad9eb3;
+  text-decoration: none;
+}
+
+body a:-moz-any-link {
+  color: #ad9eb3;
+  text-decoration: none;
+}
+
+body a:any-link {
+  color: #ad9eb3;
+  text-decoration: none;
+}
+
+body ul li {
+  list-style: none;
+}
+
+body header span#name {
+  color: #7c7c7c;
+  font-size: 36px;
+}
+/*# sourceMappingURL=styles.css.map */

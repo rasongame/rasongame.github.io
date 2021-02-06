@@ -1,0 +1,23 @@
+$background: #181818;
+$primary: rgb(124, 124, 124);
+$secondary: rgb(173, 158, 179);
+body {
+    color: $primary;
+    margin-left: 2em;
+    background: $background;
+    a:any-link {
+        color: $secondary;
+        text-decoration: none;
+    }
+    ul {
+        li {
+            list-style: none;
+        }
+    }
+    header {
+        span#name {
+            color: $primary;
+            font-size: 36px;
+        }
+    }
+}
